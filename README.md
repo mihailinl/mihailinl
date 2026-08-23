@@ -17,7 +17,7 @@ I build **Minice**, an independent software studio, with my friend **Knice**. Ri
 
 It's written in Rust. Speech recognition and synthesis run locally. The avatar renderer is hand-rolled wgpu — MToon shading, GPU skeletal skinning, spring bones — because every off-the-shelf option wanted a game engine attached.
 
-I started writing code in 2022 with a console Pac-Man in C#. The path went C# → .NET → WinUI → Rust and shader math, and that's where I stopped moving.
+I started writing code in 2022 with a console Pac-Man in C#. From there: Unity, then WinUI 3 and Uno Platform, then Rust and shader math. Still moving — there's always something I haven't taken apart yet.
 
 **Most of our work is closed source**, so this profile is the visible edge of it. The public repos below are pieces we pulled out of Astra and released on their own.
 
