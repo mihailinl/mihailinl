@@ -92,8 +92,8 @@ Independent and self-funded. Everything we ship goes out under this name.
 ### Numbers
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mihailinl&show_icons=true&hide_border=true&bg_color=00000000&title_color=7C6BF5&text_color=8A85A3&icon_color=FF9E6B&include_all_commits=true&rank_icon=github&hide=issues" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihailinl&layout=compact&hide_border=true&bg_color=00000000&title_color=7C6BF5&text_color=8A85A3&langs_count=6&exclude_repo=unity-desktop-lite,paperclip&hide=shell" alt="Top languages">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mihailinl&show_icons=true&hide_border=true&bg_color=00000000&title_color=7C6BF5&text_color=8A85A3&icon_color=FF9E6B&rank_icon=github&hide=issues&cache_seconds=86400" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihailinl&layout=compact&hide_border=true&bg_color=00000000&title_color=7C6BF5&text_color=8A85A3&langs_count=6&exclude_repo=unity-desktop-lite,paperclip&hide=shell&cache_seconds=86400" alt="Top languages">
 </p>
 
 <p align="center">
