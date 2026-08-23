@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="mihailin — Minice, software studio. Voice-first desktop software, written in Rust.">
+  <title>mihailin — Minice software studio</title>
+
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="var(--violet)"/>
+      <stop offset="0.62" stop-color="var(--violet)"/>
+      <stop offset="1"   stop-color="var(--accent)"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="var(--accent)"/>
+      <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    svg {
+      --bg:#F7F6FB; --border:#E4E1F0; --fg:#141220;
+      --muted:#6E6A85; --violet:#6C5CE0; --accent:#D9622F;
+      --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      svg {
+        --bg:#0C0B13; --border:#1F1C2F; --fg:#F2F0FA;
+        --muted:#8A85A3; --violet:#9C8CFF; --accent:#FF9E6B;
+      }
+    }
+
+    .card    { fill: var(--bg); stroke: var(--border); stroke-width: 1; }
+    .eyebrow { font-family: var(--mono); font-size: 12.5px; font-weight: 600;
+                letter-spacing: 3.4px; fill: var(--accent); }
+    .mark    { font-family: var(--sans); font-size: 64px; font-weight: 800;
+                letter-spacing: -2.6px; fill: var(--fg); }
+    .sub     { font-family: var(--sans); font-size: 16px; font-weight: 400;
+                letter-spacing: 0.1px; fill: var(--muted); }
+    .base    { stroke: var(--muted); stroke-width: 1; opacity: .18; }
+
+    .b { fill: url(#wave); transform-box: fill-box; transform-origin: center;
+         animation-name: talk; animation-timing-function: cubic-bezier(.45,.05,.35,1);
+         animation-iteration-count: infinite; animation-direction: alternate; }
+    @keyframes talk {
+      0%   { transform: scaleY(.34); }
+      45%  { transform: scaleY(1);   }
+      100% { transform: scaleY(.58); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .b { animation: none; }
+    }
+  </style>
+
+  <rect class="card" x="0.5" y="0.5" width="999" height="239" rx="18"/>
+
+  <text class="eyebrow" x="64" y="76">MINICE — SOFTWARE STUDIO</text>
+  <rect x="64" y="90" width="150" height="2" rx="1" fill="url(#rule)"/>
+
+  <text class="mark" x="60" y="156">mihailin</text>
+  <text class="sub"  x="64" y="192">Voice-first desktop software, written in Rust.</text>
+
+  <line class="base" x1="600" y1="120" x2="936" y2="120"/>
+  <g>
+      <rect class="b" x="600.0" y="116.50" width="4.6" height="7.00" rx="2.3" style="animation-duration:2.10s;animation-delay:-0.00s"/>
+      <rect class="b" x="608.0" y="108.70" width="4.6" height="22.61" rx="2.3" style="animation-duration:2.29s;animation-delay:-0.06s"/>
+      <rect class="b" x="616.0" y="102.39" width="4.6" height="35.22" rx="2.3" style="animation-duration:2.48s;animation-delay:-0.11s"/>
+      <rect class="b" x="624.0" y="97.53" width="4.6" height="44.94" rx="2.3" style="animation-duration:2.67s;animation-delay:-0.17s"/>
+      <rect class="b" x="632.0" y="94.18" width="4.6" height="51.65" rx="2.3" style="animation-duration:2.86s;animation-delay:-0.22s"/>
+      <rect class="b" x="640.0" y="92.48" width="4.6" height="55.03" rx="2.3" style="animation-duration:2.10s;animation-delay:-0.28s"/>
+      <rect class="b" x="648.0" y="92.48" width="4.6" height="55.04" rx="2.3" style="animation-duration:2.29s;animation-delay:-0.33s"/>
+      <rect class="b" x="656.0" y="94.03" width="4.6" height="51.93" rx="2.3" style="animation-duration:2.48s;animation-delay:-0.39s"/>
+      <rect class="b" x="664.0" y="96.86" width="4.6" height="46.28" rx="2.3" style="animation-duration:2.67s;animation-delay:-0.44s"/>
+      <rect class="b" x="672.0" y="100.54" width="4.6" height="38.91" rx="2.3" style="animation-duration:2.86s;animation-delay:-0.49s"/>
+      <rect class="b" x="680.0" y="98.14" width="4.6" height="43.73" rx="2.3" style="animation-duration:2.10s;animation-delay:-0.55s"/>
+      <rect class="b" x="688.0" y="94.35" width="4.6" height="51.30" rx="2.3" style="animation-duration:2.29s;animation-delay:-0.60s"/>
+      <rect class="b" x="696.0" y="91.42" width="4.6" height="57.17" rx="2.3" style="animation-duration:2.48s;animation-delay:-0.66s"/>
+      <rect class="b" x="704.0" y="88.36" width="4.6" height="63.27" rx="2.3" style="animation-duration:2.67s;animation-delay:-0.71s"/>
+      <rect class="b" x="712.0" y="84.16" width="4.6" height="71.68" rx="2.3" style="animation-duration:2.86s;animation-delay:-0.77s"/>
+      <rect class="b" x="720.0" y="81.08" width="4.6" height="77.84" rx="2.3" style="animation-duration:2.10s;animation-delay:-0.82s"/>
+      <rect class="b" x="728.0" y="79.47" width="4.6" height="81.07" rx="2.3" style="animation-duration:2.29s;animation-delay:-0.88s"/>
+      <rect class="b" x="736.0" y="79.54" width="4.6" height="80.92" rx="2.3" style="animation-duration:2.48s;animation-delay:-0.94s"/>
+      <rect class="b" x="744.0" y="81.36" width="4.6" height="77.29" rx="2.3" style="animation-duration:2.67s;animation-delay:-0.99s"/>
+      <rect class="b" x="752.0" y="84.76" width="4.6" height="70.47" rx="2.3" style="animation-duration:2.86s;animation-delay:-1.04s"/>
+      <rect class="b" x="760.0" y="89.45" width="4.6" height="61.11" rx="2.3" style="animation-duration:2.10s;animation-delay:-1.10s"/>
+      <rect class="b" x="768.0" y="90.24" width="4.6" height="59.51" rx="2.3" style="animation-duration:2.29s;animation-delay:-1.16s"/>
+      <rect class="b" x="776.0" y="83.75" width="4.6" height="72.49" rx="2.3" style="animation-duration:2.48s;animation-delay:-1.21s"/>
+      <rect class="b" x="784.0" y="78.06" width="4.6" height="83.88" rx="2.3" style="animation-duration:2.67s;animation-delay:-1.26s"/>
+      <rect class="b" x="792.0" y="73.73" width="4.6" height="92.54" rx="2.3" style="animation-duration:2.86s;animation-delay:-1.32s"/>
+      <rect class="b" x="800.0" y="71.19" width="4.6" height="97.61" rx="2.3" style="animation-duration:2.10s;animation-delay:-1.38s"/>
+      <rect class="b" x="808.0" y="70.70" width="4.6" height="98.59" rx="2.3" style="animation-duration:2.29s;animation-delay:-1.43s"/>
+      <rect class="b" x="816.0" y="72.30" width="4.6" height="95.41" rx="2.3" style="animation-duration:2.48s;animation-delay:-1.49s"/>
+      <rect class="b" x="824.0" y="75.79" width="4.6" height="88.42" rx="2.3" style="animation-duration:2.67s;animation-delay:-1.54s"/>
+      <rect class="b" x="832.0" y="80.83" width="4.6" height="78.35" rx="2.3" style="animation-duration:2.86s;animation-delay:-1.59s"/>
+      <rect class="b" x="840.0" y="86.89" width="4.6" height="66.22" rx="2.3" style="animation-duration:2.10s;animation-delay:-1.65s"/>
+      <rect class="b" x="848.0" y="93.42" width="4.6" height="53.16" rx="2.3" style="animation-duration:2.29s;animation-delay:-1.71s"/>
+      <rect class="b" x="856.0" y="99.83" width="4.6" height="40.34" rx="2.3" style="animation-duration:2.48s;animation-delay:-1.76s"/>
+      <rect class="b" x="864.0" y="97.60" width="4.6" height="44.80" rx="2.3" style="animation-duration:2.67s;animation-delay:-1.81s"/>
+      <rect class="b" x="872.0" y="96.36" width="4.6" height="47.29" rx="2.3" style="animation-duration:2.86s;animation-delay:-1.87s"/>
+      <rect class="b" x="880.0" y="96.44" width="4.6" height="47.11" rx="2.3" style="animation-duration:2.10s;animation-delay:-0.03s"/>
+      <rect class="b" x="888.0" y="97.86" width="4.6" height="44.28" rx="2.3" style="animation-duration:2.29s;animation-delay:-0.08s"/>
+      <rect class="b" x="896.0" y="100.46" width="4.6" height="39.09" rx="2.3" style="animation-duration:2.48s;animation-delay:-0.14s"/>
+      <rect class="b" x="904.0" y="103.79" width="4.6" height="32.43" rx="2.3" style="animation-duration:2.67s;animation-delay:-0.19s"/>
+      <rect class="b" x="912.0" y="106.67" width="4.6" height="26.67" rx="2.3" style="animation-duration:2.86s;animation-delay:-0.25s"/>
+      <rect class="b" x="920.0" y="111.00" width="4.6" height="17.99" rx="2.3" style="animation-duration:2.10s;animation-delay:-0.30s"/>
+      <rect class="b" x="928.0" y="116.50" width="4.6" height="7.00" rx="2.3" style="animation-duration:2.29s;animation-delay:-0.35s"/>
+  </g>
+</svg>
