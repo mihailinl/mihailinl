@@ -13,13 +13,13 @@
 
 ### About
 
-I run **Minice**, a one-person software studio. Right now that mostly means **Astra** — a desktop voice assistant with a VRM character that lives in a transparent window on top of your desktop. It listens, answers, opens your apps, and changes expression depending on how the conversation is going.
+I build **Minice**, an independent software studio, with my friend **Knice**. Right now that mostly means **Astra** — a desktop voice assistant with a VRM character that lives in a transparent window on top of your desktop. It listens, answers, opens your apps, and changes expression depending on how the conversation is going.
 
 It's written in Rust. Speech recognition and synthesis run locally. The avatar renderer is hand-rolled wgpu — MToon shading, GPU skeletal skinning, spring bones — because every off-the-shelf option wanted a game engine attached.
 
 I started writing code in 2022 with a console Pac-Man in C#. The path went C# → .NET → WinUI → Rust and shader math, and that's where I stopped moving.
 
-**Most of my work is closed source**, so this profile is the visible edge of it. The public repos below are pieces I pulled out of Astra and released on their own.
+**Most of our work is closed source**, so this profile is the visible edge of it. The public repos below are pieces we pulled out of Astra and released on their own.
 
 ---
 
@@ -40,7 +40,7 @@ A desktop voice assistant with a character. Rust + Tauri, local STT/TTS, custom 
 
 **[Minice](https://minice.ai)** · the studio
 
-Small, independent, self-funded. Everything I ship goes out under this name.
+Independent and self-funded. Everything we ship goes out under this name.
 
 [minice.ai](https://minice.ai)
 
@@ -55,7 +55,6 @@ Small, independent, self-funded. Everything I ship goes out under this name.
 | **[AstraPlugins](https://github.com/mihailinl/AstraPlugins)** | Plugin SDKs for Astra in Rust, Python and TypeScript, plus a CLI and example plugins. gRPC process isolation, so a plugin crash can't take the assistant down. |
 | **[astra-search](https://github.com/mihailinl/astra-search)** | Search layer extracted from Astra, usable standalone. |
 | **[astra-hotkey](https://github.com/mihailinl/astra-hotkey)** | Cross-platform global hotkey capture for desktop apps. |
-| **[mihailin.dev](https://github.com/mihailinl/mihailin.dev)** | My site. GSAP scroll sequencing and a live Three.js VRM of Astra. |
 
 ---
 
